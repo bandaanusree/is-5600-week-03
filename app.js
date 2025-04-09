@@ -1,4 +1,3 @@
-
 const express = require('express');
 const path = require('path');
 const EventEmitter = require('events');
@@ -63,4 +62,4 @@ app.get('/sse', respondSSE);
 
   app.listen(port, function() {
     console.log(`server is listening on port ${port}`);
- });
+ });

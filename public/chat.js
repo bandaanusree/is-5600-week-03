@@ -1,3 +1,4 @@
+
 new window.EventSource("/sse").onmessage = function(event) {
     window.messages.innerHTML += `<p>${event.data}</p>`;
 };
